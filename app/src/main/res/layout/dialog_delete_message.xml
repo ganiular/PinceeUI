@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="300dp"
+        android:orientation="vertical"
+        android:background="@drawable/curve_dialog_background"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:paddingBottom="16dp"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="354dp" />
+
+        <Button
+            android:id="@+id/button_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:minHeight="48dp"
+            android:text="@string/delete_for_me"
+            style="@style/Widget.MaterialComponents.FloatingActionButton"
+            android:textColor="?colorOnSecondary"
+            android:textAllCaps="true"
+            tools:layout_editor_absoluteX="217dp"
+            tools:layout_editor_absoluteY="146dp" />
+
+        <Button
+            android:id="@+id/button_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="24dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingEnd="24dp"
+            android:text="@string/delete_for_all"
+            style="@style/Widget.MaterialComponents.FloatingActionButton"
+            android:backgroundTint="@color/white"
+            android:textColor="?colorOnSecondary"
+            android:textAllCaps="true"
+            tools:layout_editor_absoluteX="207dp"
+            tools:layout_editor_absoluteY="234dp" />
+
+        <Button
+            android:id="@+id/button_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:text="@string/cancel"
+            style="@style/Widget.MaterialComponents.FloatingActionButton"
+            android:backgroundTint="@color/white"
+            android:textColor="?colorOnSecondary"
+            android:textAllCaps="true"
+            tools:layout_editor_absoluteX="207dp"
+            tools:layout_editor_absoluteY="341dp" />
+    </LinearLayout>
+</FrameLayout>

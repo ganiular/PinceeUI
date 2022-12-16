@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="media_icons">
+        <item>@drawable/ic_outline_image_24</item>
+        <item>@drawable/ic_baseline_album_24</item>
+        <item>@drawable/ic_baseline_local_movies_24</item>
+        <item>@drawable/ic_outline_text_snippet_24</item>
+        <item>@drawable/ic_outline_other_file_24</item>
+    </string-array>
+</resources>

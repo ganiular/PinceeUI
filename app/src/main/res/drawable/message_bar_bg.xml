@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:maxLevel="0">
+        <shape android:useLevel="true">
+            <stroke android:width="2dp" android:color="#D3CCDC" />
+            <corners android:radius="24dp" />
+        </shape>
+    </item>
+    <item android:maxLevel="1">
+        <shape android:useLevel="true">
+            <stroke android:width="2dp" android:color="#D3CCDC" />
+            <corners android:topRightRadius="16dp" android:topLeftRadius="16dp" android:bottomRightRadius="24dp" android:bottomLeftRadius="24dp"/>
+        </shape>
+    </item>
+</level-list>

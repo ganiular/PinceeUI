@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/ic_star_on_white_24"
+        android:title="@string/favorite_messages"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_files"
+        android:icon="@drawable/ic_perm_media_24"
+        android:title="@string/media_files"
+        app:showAsAction="never" />
+</menu>

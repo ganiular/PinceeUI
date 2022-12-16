@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/profile_settings"
+            style="@style/settings_list_item">
+            <ImageView
+                android:src="@drawable/ic_baseline_person_24"
+                style="@style/settings_list_icon" />
+            <TextView
+                android:text="@string/profile_and_account"
+                style="@style/settings_list_primary_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/chats_settings"
+            style="@style/settings_list_item">
+
+            <ImageView
+                style="@style/settings_list_icon"
+                app:srcCompat="@drawable/ic_chat_settings_24" />
+            <TextView
+                android:text="Chats"
+                style="@style/settings_list_primary_text"  />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/security_settings"
+            style="@style/settings_list_item">
+
+            <ImageView
+                style="@style/settings_list_icon"
+                app:srcCompat="@drawable/ic_baseline_security_24" />
+            <TextView
+                android:text="@string/privacy_and_security"
+                style="@style/settings_list_primary_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/notification_settings"
+            style="@style/settings_list_item">
+
+            <ImageView
+                style="@style/settings_list_icon"
+                app:srcCompat="@drawable/ic_baseline_notifications_24" />
+            <TextView
+                android:text="@string/notifications"
+                style="@style/settings_list_primary_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/invite_friend"
+            style="@style/settings_list_item">
+
+            <ImageView
+                style="@style/settings_list_icon"
+                app:srcCompat="@drawable/ic_baseline_people_24" />
+            <TextView
+                android:text="@string/invite_friends"
+                style="@style/settings_list_primary_text" />
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/send_feedback"
+            style="@style/settings_list_item">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                style="@style/settings_list_icon"
+                app:layout_constraintBottom_toBottomOf="@+id/textView18"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView17"
+                app:srcCompat="@drawable/ic_baseline_feedback_24" />
+
+            <TextView
+                android:id="@+id/textView17"
+                style="@style/settings_list_primary_text"
+                android:text="@string/send_feedback"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView3"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:text="@string/report_technical_issues_or_suggest_new_features"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/textView17"
+                app:layout_constraintTop_toBottomOf="@+id/textView17"
+                style="@style/settings_list_secondary_text" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/help"
+            style="@style/settings_list_item">
+
+            <ImageView
+                style="@style/settings_list_icon"
+                app:srcCompat="@drawable/ic_baseline_help_24" />
+            <TextView
+                android:text="@string/help"
+                style="@style/settings_list_primary_text"  />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/about" style="@style/settings_list_item">
+
+            <ImageView
+                style="@style/settings_list_icon"
+                app:srcCompat="@drawable/ic_baseline_info_24" />
+            <TextView
+                android:text="@string/about"
+                style="@style/settings_list_primary_text" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

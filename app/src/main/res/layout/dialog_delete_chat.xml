@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="300dp"
+        android:orientation="vertical"
+        android:background="@drawable/curve_dialog_background"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:paddingBottom="16dp"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/button_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:minHeight="48dp"
+            android:text="@string/delete"
+            style="@style/Widget.MaterialComponents.FloatingActionButton"
+            android:textColor="?colorOnSecondary"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/button_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:text="@string/cancel"
+            style="@style/Widget.MaterialComponents.FloatingActionButton"
+            android:backgroundTint="@color/white"
+            android:textColor="?colorOnSecondary"
+            android:textAllCaps="true" />
+
+        <CheckBox
+            android:id="@+id/check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="250dp"
+            android:text="@string/pluralize"
+            android:textSize="14sp"
+            android:paddingStart="4dp"
+            android:alpha="0.7"
+            android:textColor="#444"/>
+    </LinearLayout>
+</FrameLayout>

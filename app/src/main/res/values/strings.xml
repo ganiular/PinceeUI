@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">Pincee UI</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="check_box_terms_acceptance">I have read the Pincee Privacy Policies and I agree to abide to the Terms and Conditions.</string>
+    <string name="ok">OK</string>
+    <string name="error_country_not_selected">You have not select your country.</string>
+    <string name="error_phone_number_field_is_empty">Input your phone number to continue.</string>
+    <string name="error_invalid_input">Invalid input.</string>
+    <string name="error_terms_agreement_not_checked">The agreement box is not marked. Pincee is bond to Terms and Conditions of usage.</string>
+    <string name="error">Error</string>
+    <string name="waiting">waiting...</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="continue_">Continue</string>
+    <string name="enter_verification_code">Enter verification code</string>
+    <string name="or">or</string>
+    <string name="call_me">Call Me</string>
+    <string name="resend_sms">Resend SMS</string>
+    <string name="no_code_received_try_again">No code received? Try again in %ds.</string>
+    <string name="the_6_digit_code">The 6 digit code sent to %s</string>
+    <string name="sending_verification">sending verification code...</string>
+    <string name="verifying_phone">verifying phone number...</string>
+    <string name="error_wrong_verification_code">Wrong verification code</string>
+    <string name="request_contact_permission">Pincee want to have access to your contact list to synchronise registered users with you</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="request_import">An existing account found for this phone number, would you like to sign in the account or create a new one?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="error_email_required">Email required</string>
+    <string name="error_password_required">Password required</string>
+    <string name="error_invalid_email">Invalid email</string>
+    <string name="pincee_will_send_you_a_link">Pincee will send you a link on your registered email address to reset your password</string>
+    <string name="reset_password">Reset password</string>
+    <string name="pincee_had_sent_you_an_email">Pincee had sent you an email to the authenticated email address of your account, check your inbox or spam folder for the next step.</string>
+    <string name="reset_password_link_sent">Reset password link sent</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="you_already_have_an_account">You already have an account with this number. Enter your e-mail and password to sign in otherwise create a new account with the number</string>
+    <string name="continue_with_a_new_account">Continue with a new account</string>
+    <string name="error_incorrect_email_or_password">Incorrect e-mail or password. Kindly note that the e-mail must be the one associated to your number</string>
+    <string name="enter_email">Enter e-mail</string>
+    <string name="error_authentication_failed">Authentication failed</string>
+    <string name="profile_name">Profile name</string>
+    <string name="set_profile">Set profile</string>
+    <string name="set_up">Set up</string>
+    <string name="profile_picture">Profile picture</string>
+    <string name="error_required">Required</string>
+    <string name="contacts_and_media">Contacts and media</string>
+    <string name="request_contacts_and_storage_permission">To easily communicate with friends and family through messages, pictures and other media, allow Pincee to access your contacts and storage.</string>
+    <string name="not_now">Not now</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="select_image">Select Image</string>
+    <string name="no_activity_found">No application to perform this task</string>
+    <string name="media">Media Access</string>
+    <string name="chats">Chats</string>
+    <string name="calls">Calls</string>
+    <string name="you_have_no_call_history">You have no call history. To start calling your friends and family, tap on My Contacts list to get started.</string>
+    <string name="your_chat_list_is_empty">Your chat list is empty. To start messaging your friends and family, tap on My Contacts list to get started.</string>
+    <string name="my_contacts">My Contacts</string>
+    <string name="status">Status</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="search_hint">Search…</string>
+    <string name="search_message">Search Message</string>
+    <string name="lookup_number">Lookup Number</string>
+    <string name="favorite_messages">Favorite messages</string>
+    <string name="phone_number">Phone number</string>
+    <string name="pincee_allows_you_to_easily_reach_people">Pincee allows you to easily reach people that are not in your contact list with their phone number.</string>
+    <string name="lookup_phone_number">Lookup phone number</string>
+    <string name="go">Go</string>
+    <string name="user_not_found">User not found</string>
+    <string name="lookup">Lookup</string>
+    <string name="error_network_issue">Network issue</string>
+    <string name="long_text">Ldhh Udsjk sui nsi akksja aksah k kahsa akajs kahdm aka osks kahjdsiais ksjhddd ia a ahjdmsaa sakd saks skjhd sjhddes sdhsjs sjdhd sjshd sjdhs sjhd jsds jahdska ahdskd sadsbs skdsjj dsddd.</string>
+    <string name="short_text">Mai Tfdsh</string>
+    <string name="message">Message</string>
+    <string name="delete">Delete</string>
+    <string name="lock">Lock</string>
+    <string name="unlock">Unlock</string>
+    <plurals name="delete_chat">
+        <item quantity="one">Delete chat?</item>
+        <item quantity="other">Delete %d chats?</item>
+    </plurals>
+    <string name="pluralize">pluralize</string>
+    <plurals name="delete_message">
+        <item quantity="one">Delete Message?</item>
+        <item quantity="other">Delete %d Messages?</item>
+    </plurals>
+    <string name="delete_for_me">Delete for me</string>
+    <string name="delete_for_all">Delete for all</string>
+    <string name="reply">Reply</string>
+    <string name="add_favorite">Add Favorite</string>
+    <string name="copy">Copy</string>
+    <string name="forward">Forward</string>
+    <string name="media_files">Media files</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="report_technical_issues_or_suggest_new_features">Report technical issues or suggest new features</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="invite_friends">Invite friends</string>
+    <string name="notifications">Notifications</string>
+    <string name="privacy_and_security"><![CDATA[Privacy & security]]></string>
+    <string name="profile_and_account"><![CDATA[Profile & account]]></string>
+    <string name="story">Story</string>
+    <string name="numbers">Numbers</string>
+    <string name="write_short_story_of_yourself">Write short story of yourself</string>
+    <string name="add_number">Add number</string>
+    <string name="profile_pictures">Profile pictures</string>
+    <string name="profile">Profile</string>
+    <string name="welcoming_interval">Welcoming interval</string>
+    <string name="add_profile_picture">Add profile picture</string>
+    <string name="save">Save</string>
+    <string name="write_story">Write story</string>
+    <string name="your_story_could_be_shown_to_people_as_welcome_note">Your story can be shown as a welcome note.</string>
+    <string name="your_profile_name_can_be_visible_to_anyone">Your profile name will be visible to anyone</string>
+    <string name="error_profile_name_is_required">Profile name is required</string>
+    <string name="write_your_story_first">Write your story first</string>
+    <string name="enter_profile_name">Enter profile name</string>
+    <string name="remove_profile_picture">Remove profile picture?</string>
+    <string name="remove">Remove</string>
+    <string-array name="media_files">
+        <item>Pictures</item>
+        <item>Videos</item>
+        <item>Audios</item>
+        <item>Documents</item>
+        <item>Other files</item>
+    </string-array>
+    <plurals name="also_delete_it_media_files_from_phone_gallery">
+        <item quantity="one">Also delete media files of this chat from device storage.</item>
+        <item quantity="other">Also delete media files of these chats from device storage.</item>
+    </plurals>
+
+    <!--  Welcoming interval  -->
+    <string name="first_time">First time</string>
+    <string name="every_day">Every day</string>
+    <string name="every_week">Every week</string>
+    <string name="every_month">Every month</string>
+    <string name="change">Change</string>
+    <string name="select_number_option">Select number option</string>
+    <string name="remove_phone_number">Remove phone number?</string>
+    <string name="number_modification">Number modification</string>
+    <string name="country_code">Country code</string>
+    <string name="next">Next</string>
+    <string name="the_number_is_already_reg_by_u">The new number is already registered by you</string>
+    <string name="old_number_is_not_recognised">Old number is not recognised</string>
+    <string name="changing_or_addition_of_phone_number_will_cost_you_100">Changing or addition of phone number will cost you <b>100 Naira</b> extra charge from your network provider.</string>
+    <string name="enter_new_phone_number">Enter new phone number</string>
+    <string name="enter_old_phone_number">Enter old phone number</string>
+    <string name="change_number">Change number</string>
+    <string name="invalid_country_code_format">Invalid country code format</string>
+    <string name="input_all_fields">Input all fields</string>
+    <string name="invalid_phone_number_format">Invalid phone number format</string>
+    <string-array name="welcome_interval">
+        <item>First time</item>
+        <item>Every day</item>
+        <item>Every week</item>
+        <item>Every month</item>
+    </string-array>
+</resources>

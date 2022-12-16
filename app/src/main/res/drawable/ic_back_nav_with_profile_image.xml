@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_arrow_back_ios_24" android:top="12dp" android:bottom="12dp"/>
+    <item android:drawable="@drawable/ic_account_circle_24" android:left="24dp" android:gravity="end"/>
+</layer-list>

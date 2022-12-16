@@ -1,0 +1,3 @@
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_outline_perm_media_24"
+    android:insetRight="8dp" android:insetLeft="8dp"/>

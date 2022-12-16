@@ -1,0 +1,3 @@
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_star_outline_24"
+    android:insetRight="8dp" android:insetLeft="8dp"/>

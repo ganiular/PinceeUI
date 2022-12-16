@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- make the insetLeft negate paddingLeft of sent_char_tag_layout_bg -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="-3dp">
+    <shape>
+        <solid android:color="#B7DBCA" />
+        <corners android:topLeftRadius="10dp" android:topRightRadius="10dp"/>
+    </shape>
+</inset>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/EditChatMessage"
+    android:id="@+id/message_input_bar"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/message_bar_bg"
+    tools:showIn="@layout/activity_chat">
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:visibility="gone"
+        android:background="@drawable/sent_chat_tag_layout_bg" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sent_chat_tag_text_bg"
+            android:padding="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/short_text"
+                android:textColor="?attr/colorSurfaceVariant" />
+
+            <TextView
+                android:id="@+id/text_view_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text="@string/long_text"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:animateLayoutChanges="true"
+        android:padding="4dp">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?android:selectableItemBackgroundBorderless"
+            app:srcCompat="@drawable/ic_insert_emoticon_24" />
+
+        <EditText
+            android:id="@+id/edit_message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:scrollbars="vertical"
+            android:background="@null"
+            android:hint="@string/message"
+            android:inputType="textAutoCorrect|textMultiLine|text|textCapSentences|textImeMultiLine"
+            android:maxLines="6" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:rotation="45"
+            android:background="?android:selectableItemBackgroundBorderless"
+            app:srcCompat="@drawable/ic_attach_file_24" />
+
+        <ImageButton
+            android:id="@+id/button_camera"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?android:selectableItemBackgroundBorderless"
+            app:srcCompat="@drawable/ic_photo_camera_24" />
+    </LinearLayout>
+</LinearLayout>
